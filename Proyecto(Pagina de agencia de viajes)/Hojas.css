@@ -1,0 +1,307 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+nav{
+    background: #565e5e50;
+    height: 80px;
+    width: 100%;
+    position: fixed;
+}
+.enlace{
+    position: absolute;
+    padding: 20px 50px;
+}
+.logo{
+    height: 40px;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li a{
+    color: #fff;
+    font-size: 18px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+li a.active, li a:hover{
+    background: #000090;
+    transition: .5s;
+}
+.checkbtn{
+    font-size: 30px;
+    color: #fff;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+}
+/*section{
+    background: url(https://thumbs.dreamstime.com/b/monta%C3%B1as-en-la-rep%C3%BAblica-dominicana-33466682.jpg) no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: calc(100vh - 80px);
+}*/
+
+
+
+   
+
+.hrmedio{
+width: 0px;
+}
+html{
+    font-family: 'Montserrat', sans-serif;
+    
+}
+nav{
+    margin-bottom: 7rem;
+}
+
+#contenedor{
+    background-color: #faf9f6;
+}
+
+/*Pantalla Punta cana------------*/
+
+#pant1{
+    height: 510px;
+}
+
+#articulo1{
+    width: 1300px;
+    height: 400px;
+    margin: 0 auto;
+}
+
+#text1{
+    float: right;
+    width: 400px;
+    margin:60px 50px 0px 0px;
+}
+
+#text1 h1{
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+    margin-bottom: 80px;
+}
+
+#text1 p{
+    font-style: justify;
+}
+
+#articulo1 img{
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/*Pantalla Samana------------*/
+
+#pant2{
+    height: 530px;
+}
+
+#articulo2{
+    width: 1300px;
+    height: 400px;
+    margin: 0 auto;
+}
+
+#text2{
+    float: left;
+    width: 200px;
+    margin:40px 50px 0px 20px;
+}
+
+#text2 h1{
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+    margin-bottom: 80px;
+}
+
+#text2 p{
+    font-style: justify;
+}
+
+#articulo2 img{
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#secontext2{
+    float: right;
+    width: 200px;
+    margin:40px 60px 0px 0px;
+}
+
+#secontext2 h1{
+    margin-bottom: 50px;
+    font-size: 30px;
+}
+
+/*Pantalla Puerto Plata------------*/
+
+#pant3{
+    height: 530px;
+}
+
+#articulo3{
+    width: 1300px;
+    height: 400px;
+    margin: 0 auto;
+}
+
+#text3{
+    float: right;
+    width: 400px;
+    margin:60px 50px 0px 0px;
+}
+
+#text3 h1{
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+    margin-bottom: 80px;
+}
+
+#text3 p{
+    font-style: justify;
+}
+
+#articulo3 img{
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/*Pantalla Santo Domingo------------*/
+
+#pant4{
+    height: 530px;
+}
+
+#articulo4{
+    width: 1300px;
+    height: 400px;
+    margin: 0 auto;
+    margin-bottom: 7rem;
+}
+
+#text4{
+    float: left;
+    width: 400px;
+    margin:50px 50px 0px 0px;
+}
+
+#text4 h1{
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+}
+
+#text4 p{
+    font-style: justify;
+}
+
+#articulo4 img{
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/*Pantalla Planes------------*/
+
+#viajaresvivir{
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 200px;
+}
+
+#textviajes{
+    text-align: center;
+}
+
+.cajagrid{
+    display: grid;
+    grid-template-areas: 'post1 post2 post3';
+    margin-left: 30px;
+    margin-top: 40px;
+    width: 90%;
+}
+
+.post{
+    margin: 10px;
+    transition: box-shadow  0.3s ease;
+    cursor: pointer;
+    height: 480px;
+    transition: box-shadow 0.4s ease;
+}
+
+.cajatext1{
+    margin: 30px 30px 0px 30px;
+    color: white;
+}
+
+.cajatext2{
+    margin: 20px 30px 0px 30px;
+    color: white; 
+}
+
+.post p{
+    float: right;
+    background-color: transparent;
+}
+
+.post h3{
+    float: left;
+    background-color: transparent;
+}
+
+h7{
+background-color: transparent;
+color: white;
+float: right;
+margin: 20px;
+}
+
+.post:hover{
+    box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.664), 0 0.2rem 0.6rem rgba(0, 0, 0, 0.637);
+}
+
+#post1{
+grid-area: 'post1';
+background-color: #263374;
+}
+
+#post2{
+grid-area: 'post2';
+background-color: #0BA8E0;
+}
+
+#post3{
+grid-area: 'post3'; 
+background-color: #CC242A; 
+}
+
+footer{
+    margin-top: 11rem;
+    background-color: #1C2536;
+    height: 400px;
+    color: #fff;
+}
